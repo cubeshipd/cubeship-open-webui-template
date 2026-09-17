@@ -82,3 +82,15 @@ inside Open WebUI, so embedding large documents is slow on 2 CPUs; a larger
 embedding model, a reranker, or local speech-to-text needs more memory — raise
 `limits` in `template.yaml`. The chat models themselves run in Ollama or behind
 the API you connect, not here.
+
+---
+
+<!-- cubeship-crosslink -->
+
+## About Cubeship
+
+This is a template for [**Cubeship**](https://github.com/cubeshipd/cubeship) —
+a PaaS you run on your own server: `docker push`, and it is live, with HTTPS,
+a database beside it, and a second machine when one stops being enough.
+
+Browse every template at [cubeship.dev/templates](https://cubeship.dev/templates).
